@@ -167,13 +167,16 @@ button {
     width: 350px;
     margin: auto;
     padding-top: 73px;
-    color: white;
+    color: rgb(250, 249, 249);
 }
 
 .form-container {
-    background-color: #478AC9;
-    padding: 10px;
+    background-color: #a40f48;
+    padding: 30px;
     margin-top: 50px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 .inp-container {
@@ -181,9 +184,16 @@ button {
 }
 
 .form-container button {
-    background-color: green;
-    padding: 10px 20px;
-    color: white;
+    background-color: rgb(64, 253, 64);
+    padding: 5px 20px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 
@@ -191,19 +201,31 @@ button {
 
 .addalbum-container {
     color: white;
-    padding-top: 73px;
+    padding-top: 50px;
     width: 350px;
     margin: auto;
 }
 
 .addalbum-form {
-    padding: 10px;
-    background-color: #478AC9;
+    padding: 20px;
+    background-color: #a9163b;
     margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .addalbum-form button {
     background-color: green;
-    padding: 10px 20px;
+    padding: 7px 15px;
     color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
